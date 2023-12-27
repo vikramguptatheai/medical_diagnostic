@@ -6,7 +6,7 @@ import json
 import requests
 
 
-token_hugging_face = "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"
+token_hugging_face = ""
 
 headers = {"Authorization": f"Bearer {token_hugging_face}"} #TOKEN HUGGING FACE
 API_URL_RECOGNITION = "https://api-inference.huggingface.co/models/openai/whisper-tiny.en"
